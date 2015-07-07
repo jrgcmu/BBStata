@@ -6,12 +6,13 @@ There are two versions:
 
 1. `Stata.plist` is a minimal highlighting module that only uses Barebones' built-in text commands.
 
-2. `Stata_RegEx.plist` adds syntax highlighting for both the `\\` and `*` line comments using regular expressions generously contributed by Steve Samuels.
+2. `Stata_RegEx.plist` uses regular expressions (generously contributed by Steve Samuels) to allow for recursive quotes (``"`string'"``) and both types of line comments (``\\`` and ``*``).
 
-You may also be interested in [Jonathan  Marc Bearak's](http://bearak.org/code/text/index.html) version, which uses regular expressions to include multiple line comment types, program definitions (for code folding) and recursive string highlighting.
+I have updated both of these with keywords from Stata 14.
 
+You may also be interested in [Jonathan  Marc Bearak's](http://bearak.org/code/text/index.html) version, which also adds program definitions for code folding.
 
-I prefer the first, more minimal module, because Bare Bones' built-in string pattern functions seem to be faster and more reliable. The disadvantages are that you have to choose which type of line comment you prefer (the default is `\\`).
+The only advantage of the more minimal version is that Bare Bones' built-in string functions seem a bit faster and more reliable than user-supplied regular expressions.
 
 
 # Installation
