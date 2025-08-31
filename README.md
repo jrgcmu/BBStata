@@ -10,10 +10,7 @@ There are two versions:
 
 I have updated both of these with keywords from Stata 14.
 
-You may also be interested in [Jonathan  Marc Bearak's](http://bearak.org/code/text/index.html) version, which also adds program definitions for code folding.
-
-The only advantage of the more minimal version is that Bare Bones' built-in string functions seem a bit faster and more reliable than user-supplied regular expressions.
-
+**Note:** I am no longer updating the language module files, since [Jonathan  Marc Bearak's](http://bearak.org/code/text/index.html) language module also adds program definitions for code folding. (The only advantage of the more minimal version is that Bare Bones' built-in string functions seem a bit faster and more reliable than user-supplied regular expressions).
 
 # Installation
 
