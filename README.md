@@ -24,3 +24,8 @@ Copy to
 ```
 
 replacing `BBEdit` with `TextWrangler` if you use the latter.
+
+
+# Comment fill scripts
+
+The scripts [CommentFill.scpt](https://github.com/jrgcmu/BBStata/blob/master/CommentFill.scpt) and [CommentFill.py]([https://github.com/jrgcmu/BBStata](https://github.com/jrgcmu/BBStata/blob/ma)) add a space, followed by "*"s, to the end of the line (column 90 by default), which is useful for adding code-structuring comments (this is inspired by RStudio's version of this feature). The (vibe coded) Python script is the original version, but I added an AppleScript version since I realized Python is no longer installed by default.
